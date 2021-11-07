@@ -1,0 +1,25 @@
+.Drums {
+    background-color: slategrey;
+    border-radius: 5px;
+    position: relative;
+    top: 10vh;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    width: 40vw;
+    height: 80vh;
+}
+
+.Drums button {
+    font-size: 3rem;
+}
+
+#display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    background-color: burlywood;
+    grid-column: 1 / 4;
+}
